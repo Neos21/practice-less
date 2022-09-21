@@ -1,2 +1,2 @@
-# 言語判定から HTML を除外する
+# 言語判定から CSS を除外する
 *.css linguist-detectable=false
