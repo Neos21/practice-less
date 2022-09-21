@@ -1,0 +1,27 @@
+{
+  "name": "practice-less",
+  "description": "Practice Less",
+  "private": true,
+  "scripts": {
+    "lint" : "lessc --lint ./src/*.less",
+    "build": "lessc ./src/main.less ./dist/styles.css",
+    "lessc": "lessc"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-less#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-less.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-less/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "devDependencies": {
+    "less": "4.1.3"
+  }
+}
